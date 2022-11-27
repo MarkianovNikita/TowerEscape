@@ -1,8 +1,8 @@
-﻿using Items;
+﻿using Game.Items;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Inventory
+namespace Game.Inventory
 {
     public class ClosestItemSlotView : MonoBehaviour
     {

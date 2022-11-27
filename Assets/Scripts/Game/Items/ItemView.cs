@@ -1,7 +1,6 @@
 ﻿using UnityEngine;
-using UnityEngine.Serialization;
 
-namespace Items
+namespace Game.Items
 {
     public class ItemView : MonoBehaviour
     {

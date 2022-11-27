@@ -1,4 +1,5 @@
 ﻿using System;
+using General;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -20,18 +21,26 @@ namespace MainMenu
             _exitButton.onClick.AddListener(OnExitClicked);
         }
 
+        private void Start()
+        {
+            FadeController.Instance.FadeOut();
+        }
+
         private void OnExitClicked()
         {
+            UiSoundsManager.Instance.PlayClickSound();
             Application.Quit();
         }
 
         private void OnInfoClicked()
         {
+            UiSoundsManager.Instance.PlayClickSound();
             _infoWindow.Open();
         }
 
         private void OnPlayClicked()
         {
+            UiSoundsManager.Instance.PlayClickSound();
             _playWindow.Open();
         }
     }

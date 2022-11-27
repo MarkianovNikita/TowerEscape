@@ -1,9 +1,9 @@
-﻿using Door;
-using Inventory;
+﻿using Game.Door;
+using Game.Inventory;
 using UnityEngine;
 using UnityEngine.InputSystem;
 
-namespace Player
+namespace Game.Player
 {
     public class Mage : MonoBehaviour
     {

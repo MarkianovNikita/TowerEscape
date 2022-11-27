@@ -1,5 +1,5 @@
 ﻿using System;
-using DefaultNamespace;
+using General;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 using UnityEngine.UI;
@@ -22,6 +22,7 @@ namespace MainMenu
 
         public void OnValueChanged(float value)
         {
+            UiSoundsManager.Instance.PlayClickSound();
             _gameContext.Difficulty = (int)value;
         }
         
@@ -34,12 +35,14 @@ namespace MainMenu
 
         public void Close()
         {
+            UiSoundsManager.Instance.PlayClickSound();
             gameObject.SetActive(false);
         }
         
         private void OnPlayClicked()
         {
-            SceneManager.LoadScene(1);
+            UiSoundsManager.Instance.PlayClickSound();
+            FadeController.Instance.FadeIn(() => SceneManager.LoadScene(1));
         }
     }
 }

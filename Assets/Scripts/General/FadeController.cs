@@ -1,9 +1,9 @@
 ﻿using System;
 using UnityEngine;
 
-namespace Fade
+namespace General
 {
-    public class FadeController : MonoBehaviour
+    public class FadeController : SingletonMonoBehaviour<FadeController>
     {
         public event Action FadeInCompleted;
         public event Action FadeOutCompleted;
@@ -13,25 +13,36 @@ namespace Fade
         
         [SerializeField] private Animator _animator;
 
-        public void FadeIn()
+        private Action _fadeInCompleteCallback;
+        private Action _fadeOutCompleteCallback;
+        
+        public void FadeIn(Action completeCallback = null)
         {
+            _fadeInCompleteCallback = completeCallback;
             _animator.SetTrigger(AnimationTriggerHashFadeIn);
         }
 
-        public void FadeOut()
+        public void FadeOut(Action completeCallback = null)
         {
+            _fadeOutCompleteCallback = completeCallback;
             _animator.SetTrigger(AnimationTriggerHashFadeOut);
         }
 
         //Called from animation
         public void OnFadeInCompleted()
         {
+            _fadeInCompleteCallback?.Invoke();
+            _fadeInCompleteCallback = null;
+            
             FadeInCompleted?.Invoke();
         }
 
         //Called from animation
         public void OnFadeOutCompleted()
         {
+            _fadeOutCompleteCallback?.Invoke();
+            _fadeOutCompleteCallback = null;
+            
             FadeOutCompleted?.Invoke();
         }
     }

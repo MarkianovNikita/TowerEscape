@@ -1,7 +1,7 @@
-﻿using Items;
+﻿using Game.Items;
 using UnityEngine;
 
-namespace Door
+namespace Game.Door
 {
     public class Order
     {

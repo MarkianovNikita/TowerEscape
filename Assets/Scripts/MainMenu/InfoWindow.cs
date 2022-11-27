@@ -1,8 +1,7 @@
 ﻿using System;
+using General;
 using UnityEngine;
 using UnityEngine.UI;
-using UnityEngine.UIElements;
-using Button = UnityEngine.UI.Button;
 
 namespace MainMenu
 {
@@ -24,6 +23,7 @@ namespace MainMenu
 
         public void Close()
         {
+            UiSoundsManager.Instance.PlayClickSound();
             gameObject.SetActive(false);
         }
     }

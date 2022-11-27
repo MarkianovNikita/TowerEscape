@@ -1,10 +1,9 @@
 ﻿using System;
-using DefaultNamespace;
-using Items;
+using Game.Items;
 using UnityEngine;
 using Random = UnityEngine.Random;
 
-namespace Door
+namespace Game.Door
 {
     public class LockController : MonoBehaviour
     {

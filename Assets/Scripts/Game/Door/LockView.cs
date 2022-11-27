@@ -1,7 +1,6 @@
-﻿using System;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Door
+namespace Game.Door
 {
     public class LockView : MonoBehaviour
     {

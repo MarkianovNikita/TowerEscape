@@ -1,18 +1,27 @@
-﻿using UnityEngine;
+﻿using System;
+using General;
+using UnityEngine;
+using UnityEngine.UI;
 
-namespace Popups
+namespace Game.Popups
 {
     public class PopupBase : MonoBehaviour
     {
+        public event Action RestartClicked;
+        public event Action MenuClicked;
+        
+        [SerializeField] private Button _backToMenuButton;
+        [SerializeField] private Button _restartButton;
+        
         private Animator _animator;
         private static readonly int AnimationTriggerHashOpen = Animator.StringToHash("Open");
-        
-        protected AudioSource AudioSource;
 
         protected virtual void Awake()
         {
             _animator = GetComponent<Animator>();
-            AudioSource = GetComponent<AudioSource>();
+            
+            _backToMenuButton.onClick.AddListener(OnBackToMenuClicked);
+            _restartButton.onClick.AddListener(OnRestartClicked);
         }
 
         public void Open()
@@ -23,6 +32,18 @@ namespace Popups
         public void Close()
         {
             _animator.SetTrigger(AnimationTriggerHashOpen);
+        }
+        
+        private void OnBackToMenuClicked()
+        {
+            UiSoundsManager.Instance.PlayClickSound();
+            MenuClicked?.Invoke();
+        }
+        
+        private void OnRestartClicked()
+        {
+            UiSoundsManager.Instance.PlayClickSound();
+            RestartClicked?.Invoke();
         }
     }
 }

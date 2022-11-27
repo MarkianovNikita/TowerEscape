@@ -1,8 +1,6 @@
-﻿using System;
-using Items;
-using UnityEngine;
+﻿using UnityEngine;
 
-namespace Door
+namespace Game.Door
 {
     public class DoorController : MonoBehaviour
     {

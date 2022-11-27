@@ -1,9 +1,8 @@
-﻿using System;
-using System.Collections.Generic;
-using Items;
+﻿using System.Collections.Generic;
+using Game.Items;
 using UnityEngine;
 
-namespace Inventory
+namespace Game.Inventory
 {
     public class InventoryController : MonoBehaviour
     {

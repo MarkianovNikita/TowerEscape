@@ -1,10 +1,10 @@
 ﻿using System.Collections.Generic;
-using Items;
+using Game.Items;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
-namespace Inventory
+namespace Game.Inventory
 {
     public class InventoryView : MonoBehaviour
     {

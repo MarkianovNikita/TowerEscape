@@ -1,9 +1,7 @@
-﻿using System;
-using Items;
-using TMPro;
+﻿using TMPro;
 using UnityEngine;
 
-namespace Door
+namespace Game.Door
 {
     public class LockDialogView : MonoBehaviour
     {
