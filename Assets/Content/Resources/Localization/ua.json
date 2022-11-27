@@ -3,6 +3,7 @@
     "main_menu_play_button" : "Грати",
     "main_menu_info_button" : "Інформація",
     "main_menu_exit_button" : "Вийти",
+    "main_menu_support_button" : "Гей, важлива інфа тут внизу",
     "main_menu_made_by" : "Зробив Маркіанов Микита",
     
     "main_menu_info_panel_0" : "Ця гра була зроблена для 20 Second Game Jam",
@@ -11,6 +12,13 @@
     "main_menu_info_panel_3" : "Ви можете грати на клавіатурі:\nРухатись - WASD\nВзаємодія - Е\nАбо з геймпадом:\nРухатись - лівий джойстик\nВзаємодія - Y (північна кнопка)",
     "main_menu_info_panel_4" : "Звукові ефекти:\nwww.kenney.nl - безкоштовні звуки\n\nЗвук кипіння:\nfreesound.org\n\nМузика::\nТрек: A Little Bit of Rhythm\nМузика від www.fiftysounds.com",
     "main_menu_info_close_button" : "Закрити",
+
+    "main_menu_support_panel_0" : "Я хочу подякувати всім, хто підтримує Україну!",
+    "main_menu_support_panel_1" : "Це може здатися чимось далеким і неважливим. Але ми вдячні за будь-яку підтримку. Це буквально рятує життя.",
+    "main_menu_support_panel_2" : "Незважаючи на те, що я живу в одному з найбезпечніших міст України, деякі ракети все одно вибухають біля мого будинку. Це було двічі під час цього Джему, до речі.",
+    "main_menu_support_panel_3" : "Відключення світла стали звичним явищем у нашій країні. І я думаю, що ця зима буде важкою.",
+    "main_menu_support_panel_4" : "Для тих, хто хоче допомогти, є міжнародна платформа підтримки для донатів: u24.gov.ua",
+    "main_menu_support_close_button" : "Закрити",
     
     "main_menu_play_window_difficulty" : "Складність",
     "main_menu_play_window_amount_of_tasks" : "Кількість задач",
