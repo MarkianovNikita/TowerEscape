@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d7b84514624515913a92ae5847a85e, type: 3}
   m_Name: PotionBlueData
   m_EditorClassIdentifier: 
-  Name: Blue Potion
-  Article: a
+  _name: potion_blue
   Color: 2
   Type: 3
   Icon: {fileID: 21300000, guid: 7d7277a9277058d47828bd45975e9c12, type: 3}

@@ -12,8 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a7d7b84514624515913a92ae5847a85e, type: 3}
   m_Name: MushroomBlueData
   m_EditorClassIdentifier: 
-  Name: Blue Mushroom
-  Article: a
+  _name: mushroom_blue
   Color: 2
   Type: 2
   Icon: {fileID: 21300000, guid: 2f38c33f409181146b14344ff123836b, type: 3}

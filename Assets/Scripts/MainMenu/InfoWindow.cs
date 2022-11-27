@@ -7,6 +7,8 @@ namespace MainMenu
 {
     public class InfoWindow : MonoBehaviour
     {
+        public event Action WindowClosed;
+        
         [SerializeField] private Button _closeButton;
         [SerializeField] private ScrollRect _scroll;
 
@@ -19,12 +21,15 @@ namespace MainMenu
         {
             gameObject.SetActive(true);
             _scroll.normalizedPosition = new Vector2(0, 1);
+            
+            _closeButton.Select();
         }
 
         public void Close()
         {
             UiSoundsManager.Instance.PlayClickSound();
             gameObject.SetActive(false);
+            WindowClosed?.Invoke();
         }
     }
 }

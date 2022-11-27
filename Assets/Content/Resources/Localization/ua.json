@@ -1,0 +1,87 @@
+﻿{
+  "Dictionary" : {
+    "main_menu_play_button" : "Грати",
+    "main_menu_info_button" : "Інформація",
+    "main_menu_exit_button" : "Вийти",
+    "main_menu_made_by" : "Зробив Маркіанов Микита",
+    
+    "main_menu_info_panel_0" : "Ця гра була зроблена для 20 Second Game Jam",
+    "main_menu_info_panel_1" : "Ви граєте за мага, який зробив щось не так із зіллям, і тепер у вас є 20 секунд, щоб втекти з вежі",
+    "main_menu_info_panel_2" : "Але замок тримає двері закритими. Знайдіть те, що йому потрібно, і віддайте це йому",
+    "main_menu_info_panel_3" : "Ви можете грати на клавіатурі:\nРухатись - WASD\nВзаємодія - Е\nАбо з геймпадом:\nРухатись - лівий джойстик\nВзаємодія - Y (північна кнопка)",
+    "main_menu_info_panel_4" : "Звукові ефекти:\nwww.kenney.nl - безкоштовні звуки\n\nЗвук кипіння:\nfreesound.org\n\nМузика::\nТрек: A Little Bit of Rhythm\nМузика від www.fiftysounds.com",
+    "main_menu_info_close_button" : "Закрити",
+    
+    "main_menu_play_window_difficulty" : "Складність",
+    "main_menu_play_window_amount_of_tasks" : "Кількість задач",
+    
+    "game_lock_give_item" : "Дати предмет",
+    
+    "game_order_request_item_format" : "Принеси мені {0}",
+    "game_order_request_color_format" : "Я хочу щось {0}",
+    "game_order_request_type_format" : "Принеси що-небудь типу {0}",
+    
+    "game_item_type_key" : "Ключ",
+    "game_order_item_type_key" : "Ключа",
+    "game_item_type_meat" : "М'ясо",
+    "game_order_item_type_meat" : "М'яса",
+    "game_item_type_crown" : "Корона",
+    "game_order_item_type_crown" : "Корони",
+    "game_item_type_potion" : "Зілля",
+    "game_order_item_type_potion" : "Зілля",
+    "game_item_type_mushroom" : "Гриб",
+    "game_order_item_type_mushroom" : "Гриба",
+    
+    "game_item_color_red" : "Червоний",
+    "game_order_item_color_red" : "Червоне",
+    "game_item_color_blue" : "Синій",
+    "game_order_item_color_blue" : "Синє",
+    "game_item_color_green" : "Зелений",
+    "game_order_item_color_green" : "Зелене",
+    "game_item_color_white" : "Білий",
+    "game_order_item_color_white" : "Біле",
+    "game_item_color_black" : "Чорний",
+    "game_order_item_color_black" : "Чорне",
+    "game_item_color_yellow" : "Жовтий",
+    "game_order_item_color_yellow" : "Жовте",
+    "game_item_color_purple" : "Фіолетовий",
+    "game_order_item_color_purple" : "Фіолетове",
+    
+    "game_item_name_key_white" : "Білий ключ",
+    "game_item_name_in_sentence_key_white" : "Білий ключ",
+    "game_item_name_key_red" : "Червоний ключ",
+    "game_item_name_in_sentence_key_red" : "Червоний ключ",
+    "game_item_name_key_green" : "Зелений ключ",
+    "game_item_name_in_sentence_key_green" : "Зелений ключ",
+    
+    "game_item_name_meat" : "М'ясо",
+    "game_item_name_in_sentence_meat" : "М'яса",
+
+    "game_item_name_crown" : "Корона",
+    "game_item_name_in_sentence_crown" : "Корону",
+
+    "game_item_name_mushroom_red" : "Червоний гриб",
+    "game_item_name_in_sentence_mushroom_red" : "Червоний гриб",
+    "game_item_name_mushroom_green" : "Зелений гриб",
+    "game_item_name_in_sentence_mushroom_green" : "Зелений гриб",
+    "game_item_name_mushroom_blue" : "Синій гриб",
+    "game_item_name_in_sentence_mushroom_blue" : "Синій гриб",
+
+    "game_item_name_potion_red" : "Червоне зілля",
+    "game_item_name_in_sentence_potion_red" : "Червоне зілля",
+    "game_item_name_potion_green" : "Зелене зілля",
+    "game_item_name_in_sentence_potion_green" : "Зелене зілля",
+    "game_item_name_potion_blue" : "Синє зілля",
+    "game_item_name_in_sentence_potion_blue" : "Синє зілля",
+    
+    "game_win_popup_title" : "Ти виграв!",
+    "game_win_popup_text_format" : "Ти зробив це за\n{0} секунд",
+    "game_win_popup_restart_button" : "Почати знову!",
+    "game_win_popup_menu_button" : "Меню",
+
+    "game_lose_popup_title" : "Ти програв...",
+    "game_lose_popup_text" : "Час вийшов.\nале ти можеш",
+    "game_lose_popup_restart_button" : "Спробувати знову!",
+    "game_lose_popup_menu_button" : "Меню"
+  }
+}

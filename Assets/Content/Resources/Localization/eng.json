@@ -1,0 +1,87 @@
+﻿{
+  "Dictionary" : {
+    "main_menu_play_button" : "Play",
+    "main_menu_info_button" : "Info",
+    "main_menu_exit_button" : "Exit",
+    "main_menu_made_by" : "Made by Markianov Mykyta",
+    
+    "main_menu_info_panel_0" : "This game was made for 20 Second Game Jam",
+    "main_menu_info_panel_1" : "You play as a Mage who did something wrong with the potion and now have 20 seconds to escape the tower",
+    "main_menu_info_panel_2" : "But the lock keeps the door closed. Find what it needs and give it to the locK",
+    "main_menu_info_panel_3" : "You can play with your keyboard:\nMove - WASD\nInteract - E\nOr with a gamepad:\nMove - Left Stick\nInteract - Y (north button)",
+    "main_menu_info_panel_4" : "Sound Effects:\nwww.kenney.nl - free sounds\n\nBoiling sound:\nfreesound.org\n\nMusic:\nTrack: A Little Bit of Rhythm\nMusic by https://www.fiftysounds.com",
+    "main_menu_info_close_button" : "Close",
+    
+    "main_menu_play_window_difficulty" : "Difficulty",
+    "main_menu_play_window_amount_of_tasks" : "Amount of tasks",
+    
+    "game_lock_give_item" : "Give item",
+    
+    "game_order_request_item_format" : "Bring me {0}",
+    "game_order_request_color_format" : "I want something {0}",
+    "game_order_request_type_format" : "Bring me any {0}",
+    
+    "game_item_type_key" : "Key",
+    "game_order_item_type_key" : "Key",
+    "game_item_type_meat" : "Meat",
+    "game_order_item_type_meat" : "Meat",
+    "game_item_type_crown" : "Crown",
+    "game_order_item_type_crown" : "Crown",
+    "game_item_type_potion" : "Potion",
+    "game_order_item_type_potion" : "Potion",
+    "game_item_type_mushroom" : "Mushroom",
+    "game_order_item_type_mushroom" : "Mushroom",
+    
+    "game_item_color_red" : "Red",
+    "game_order_item_color_red" : "Red",
+    "game_item_color_blue" : "Blue",
+    "game_order_item_color_blue" : "Blue",
+    "game_item_color_green" : "Green",
+    "game_order_item_color_green" : "Green",
+    "game_item_color_white" : "White",
+    "game_order_item_color_white" : "White",
+    "game_item_color_black" : "Black",
+    "game_order_item_color_black" : "Black",
+    "game_item_color_yellow" : "Yellow",
+    "game_order_item_color_yellow" : "Yellow",
+    "game_item_color_purple" : "Purple",
+    "game_order_item_color_purple" : "Purple",
+    
+    "game_item_name_key_white" : "White Key",
+    "game_item_name_in_sentence_key_white" : "a White Key",
+    "game_item_name_key_red" : "Red Key",
+    "game_item_name_in_sentence_key_red" : "a Red Key",
+    "game_item_name_key_green" : "Green Key",
+    "game_item_name_in_sentence_key_green" : "a Green Key",
+    
+    "game_item_name_meat" : "Meat",
+    "game_item_name_in_sentence_meat" : "Meat",
+
+    "game_item_name_crown" : "Crown",
+    "game_item_name_in_sentence_crown" : "a Crown",
+
+    "game_item_name_mushroom_red" : "Red Mushroom",
+    "game_item_name_in_sentence_mushroom_red" : "a Red Mushroom",
+    "game_item_name_mushroom_green" : "Green Mushroom",
+    "game_item_name_in_sentence_mushroom_green" : "a Green Mushroom",
+    "game_item_name_mushroom_blue" : "Blue Mushroom",
+    "game_item_name_in_sentence_mushroom_blue" : "a Blue Mushroom",
+
+    "game_item_name_potion_red" : "Red Potion",
+    "game_item_name_in_sentence_potion_red" : "a Red Potion",
+    "game_item_name_potion_green" : "Green Potion",
+    "game_item_name_in_sentence_potion_green" : "a Green Potion",
+    "game_item_name_potion_blue" : "Blue Potion",
+    "game_item_name_in_sentence_potion_blue" : "a Blue Potion",
+    
+    "game_win_popup_title" : "You win!",
+    "game_win_popup_text_format" : "You made it in\n{0} seconds",
+    "game_win_popup_restart_button" : "Do it again!",
+    "game_win_popup_menu_button" : "Menu",
+
+    "game_lose_popup_title" : "You loose...",
+    "game_lose_popup_text" : "Time is up.\nbut you can",
+    "game_lose_popup_restart_button" : "Do it again!",
+    "game_lose_popup_menu_button" : "Menu"
+  }
+}

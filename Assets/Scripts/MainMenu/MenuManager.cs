@@ -1,5 +1,6 @@
 ﻿using System;
 using General;
+using General.Localization;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -19,6 +20,11 @@ namespace MainMenu
             _playButton.onClick.AddListener(OnPlayClicked);
             _infoButton.onClick.AddListener(OnInfoClicked);
             _exitButton.onClick.AddListener(OnExitClicked);
+
+            _infoWindow.WindowClosed += OnInfoClosed;
+            _playWindow.WindowClosed += OnPlayWindowClosed;
+            
+            _playButton.Select();
         }
 
         private void Start()
@@ -37,11 +43,21 @@ namespace MainMenu
             UiSoundsManager.Instance.PlayClickSound();
             _infoWindow.Open();
         }
+        
+        private void OnInfoClosed()
+        {
+            _infoButton.Select();
+        }
 
         private void OnPlayClicked()
         {
             UiSoundsManager.Instance.PlayClickSound();
             _playWindow.Open();
+        }
+        
+        private void OnPlayWindowClosed()
+        {
+            _playButton.Select();
         }
     }
 }

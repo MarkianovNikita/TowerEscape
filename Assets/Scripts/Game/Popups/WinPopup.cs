@@ -1,5 +1,6 @@
 ﻿using System;
 using General;
+using General.Localization;
 using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
@@ -12,7 +13,10 @@ namespace Game.Popups
 
         public void Open(float timePass)
         {
-            _timeLeftText.text = $"{timePass:00} seconds";
+            _timeLeftText.text = string.Format(
+                LocalizationController.Instance.GetText("game_win_popup_text_format"),
+                timePass.ToString("00"));
+            
             Open();
         }
     }

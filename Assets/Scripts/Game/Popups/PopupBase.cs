@@ -27,6 +27,7 @@ namespace Game.Popups
         public void Open()
         {
             gameObject.SetActive(true);
+            _restartButton.Select();
         }
 
         public void Close()

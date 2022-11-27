@@ -8,6 +8,8 @@ namespace MainMenu
 {
     public class PlayWindow : MonoBehaviour
     {
+        public event Action WindowClosed;
+        
         [SerializeField] private Button _playButton;
         [SerializeField] private Button _closeButton;
         [SerializeField] private Slider _slider;
@@ -31,12 +33,16 @@ namespace MainMenu
         {
             _slider.value = _gameContext.Difficulty;
             gameObject.SetActive(true);
+            
+            _playButton.Select();
         }
 
         public void Close()
         {
             UiSoundsManager.Instance.PlayClickSound();
             gameObject.SetActive(false);
+            
+            WindowClosed?.Invoke();
         }
         
         private void OnPlayClicked()
