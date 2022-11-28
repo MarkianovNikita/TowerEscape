@@ -15,7 +15,7 @@
 
     "main_menu_info_panel_0" : "This game was made for 20 Second Game Jam",
     "main_menu_info_panel_1" : "You play as a Mage who did something wrong with the potion and now have 20 seconds to escape the tower",
-    "main_menu_info_panel_2" : "But the lock keeps the door closed. Find what it needs and give it to the locK",
+    "main_menu_info_panel_2" : "But the lock keeps the door closed. Find what it needs and give it to the lock",
     "main_menu_info_panel_3" : "You can play with your keyboard:\nMove - WASD\nInteract - E\nOr with a gamepad:\nMove - Left Stick\nInteract - Y (north button)",
     "main_menu_info_panel_4" : "Sound Effects:\nwww.kenney.nl - free sounds\n\nBoiling sound:\nfreesound.org\n\nMusic:\nTrack: A Little Bit of Rhythm\nMusic by https://www.fiftysounds.com",
     "main_menu_info_close_button" : "Close",
@@ -87,7 +87,7 @@
     "game_win_popup_restart_button" : "Do it again!",
     "game_win_popup_menu_button" : "Menu",
 
-    "game_lose_popup_title" : "You loose...",
+    "game_lose_popup_title" : "You lose...",
     "game_lose_popup_text" : "Time is up.\nbut you can",
     "game_lose_popup_restart_button" : "Do it again!",
     "game_lose_popup_menu_button" : "Menu"
